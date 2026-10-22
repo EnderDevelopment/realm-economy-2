@@ -1,0 +1,26 @@
+name: EconomyPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  balance:
+    description: Check your balance
+    usage: /balance
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>
+  shop:
+    description: Open the server shop
+    usage: /shop
+  jobs:
+    description: View available jobs
+    usage: /jobs
+  quests:
+    description: View available quests
+    usage: /quests
+  leaderboard:
+    description: View the economy leaderboard
+    usage: /leaderboard
+  transactions:
+    description: View your transaction history
+    usage: /transactions
